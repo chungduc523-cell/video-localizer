@@ -1,0 +1,12 @@
+# Frontend (Vercel)
+NEXT_PUBLIC_API_URL=https://your-backend.onrender.com
+
+# Backend (Render)
+PORT=4000
+JWT_SECRET=replace-with-a-strong-secret
+DATABASE_URL=postgresql://postgres:password@host:5432/postgres
+FRONTEND_URL=https://your-frontend.vercel.app
+OPENAI_API_KEY=
+
+# Optional for demo mode
+# If DATABASE_URL is missing, the app will fall back to demo data.
